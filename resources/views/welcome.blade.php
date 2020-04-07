@@ -292,7 +292,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
      $('#laravel_datatable').DataTable({
             processing: true,
             serverSide: true,
-            ajax: "{{ url('coronas-list') }}",
+            ajax: "{{ url('https://immense-chamber-80308.herokuapp.com/coronas-list') }}",
             order: [[ 1 , "desc" ]], 
             columns: [
                      //{ data: 'attributes.FID'},
